@@ -1,3 +1,5 @@
+package com;
+
 import org.springframework.beans.factory.support.MethodReplacer;
 
 import java.lang.reflect.Method;
@@ -6,6 +8,7 @@ public class MobileStore implements MethodReplacer {
 
     public String buyMobile(){
         return "Bought a Mobile Phone";
+
     }
 
 
